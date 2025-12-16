@@ -11,13 +11,9 @@ class _ThemeScreenState extends State<ThemeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text('Theme'),
-      ),
-      body: Center(
-        child: Text('Theme Screen', style: TextStyle(fontSize: 30),),
-      ),
+      backgroundColor: Colors.cyan,
+      // appBar: AppBar(centerTitle: true, title: Text('Theme')),
+      body: Center(child: Text('Theme Screen', style: TextStyle(fontSize: 30))),
     );
   }
 }

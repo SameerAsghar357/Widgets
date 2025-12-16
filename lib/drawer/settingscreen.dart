@@ -11,12 +11,10 @@ class _SettingScreenState extends State<SettingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text('Setting'),
-      ),
+      backgroundColor: Colors.indigoAccent,
+      // appBar: AppBar(centerTitle: true, title: Text('Setting')),
       body: Center(
-        child: Text('Setting Screen', style: TextStyle(fontSize: 30),),
+        child: Text('Setting Screen', style: TextStyle(fontSize: 30)),
       ),
     );
   }

@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:widgets/drawer/drawer.dart';
 import 'package:widgets/expanded_checking.dart';
+import 'package:widgets/page_view.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "HomePage",
       theme: ThemeData(primarySwatch: Colors.blue, useMaterial3: true),
-      home: myDrawer(),
+      home: PageViewScreen(),
     );
   }
 }

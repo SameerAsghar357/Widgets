@@ -11,12 +11,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text('Profile'),
-      ),
+      backgroundColor: Colors.blueGrey,
+      // appBar: AppBar(centerTitle: true, title: Text('Profile')),
       body: Center(
-        child: Text('Profile Screen', style: TextStyle(fontSize: 30),),
+        child: Text('Profile Screen', style: TextStyle(fontSize: 30)),
       ),
     );
   }

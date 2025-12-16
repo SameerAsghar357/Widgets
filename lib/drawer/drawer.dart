@@ -5,14 +5,14 @@ import 'package:widgets/drawer/profilescreen.dart';
 import 'package:widgets/drawer/settingscreen.dart';
 import 'package:widgets/drawer/themescreen.dart';
 
-class myDrawer extends StatefulWidget {
-  const myDrawer({super.key});
+class MyDrawer extends StatefulWidget {
+  const MyDrawer({super.key});
 
   @override
-  State<myDrawer> createState() => _myDrawerState();
+  State<MyDrawer> createState() => _MyDrawerState();
 }
 
-class _myDrawerState extends State<myDrawer> {
+class _MyDrawerState extends State<MyDrawer> {
   GlobalKey<ScaffoldState> globalKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -20,7 +20,7 @@ class _myDrawerState extends State<myDrawer> {
     return Scaffold(
       key: globalKey,
       appBar: AppBar(
-        /// if i want to manage drawer by myself then i have to make a globalkey with 
+        /// if i want to manage drawer by myself then i have to make a globalkey with
         /// scaffold state & give it to scaffold as key then use below code to access it
         leading: IconButton(
           onPressed: () {
