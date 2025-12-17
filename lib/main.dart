@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:widgets/check_box.dart';
 import 'package:widgets/checkbox_listtile.dart';
+import 'package:widgets/divider.dart';
 import 'package:widgets/drawer/drawer.dart';
 import 'package:widgets/expanded_checking.dart';
 import 'package:widgets/page_view.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "HomePage",
       theme: ThemeData(primarySwatch: Colors.blue, useMaterial3: true),
-      home: CheckboxListtileScreen(),
+      home: DividerWidget(),
     );
   }
 }
